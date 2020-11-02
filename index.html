@@ -5,7 +5,40 @@
   <title>Vecta Corp. - 24/7 365 turnkey vSolutions for agile eBusinesses</title>
   <link href="styles/normalize.css" type="text/css" rel="stylesheet">
   <link href="styles/styles.css" type="text/css" rel="stylesheet">
-  <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <script src="jquery.min.js"></script>
+  <script>
+  $(function () {
+
+	$("main section p").removeClass("vprospect vconvert vretain");
+
+	$("aside p:first-of-type").wrapInner("<q></q>");
+
+	$(".navigation").css('border','solid #929CA4 1px')
+					.css('color','#CC1C0D')
+					.css('padding','3px 0px 3px 20px')
+					.css('background-color','#DFE3E6');
+
+
+	$("p:contains('President')").append("<br>Chevy Dealers Association");
+	
+	$("nav ul li").addClass("navigation");
+	
+	$("aside h2").css('border','solid black 1px')
+					.css('color','#CC1C0D')
+					.css('padding','3px 0px 3px 20px')
+					.css('border-radius','0px 5px 0px 5px')
+					.css('background-color','#DFE3E6');
+
+	
+
+	$("section h2").css('border','solid black 1px')
+					.css('color','#CC1C0D')
+					.css('padding','3px 0px 3px 20px')
+					.css('border-radius','0px 5px 0px 5px')
+					.css('background-color','#DFE3E6');
+	
+  });
+  </script>
 </head>
 
 <body>
